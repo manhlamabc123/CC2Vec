@@ -1,7 +1,6 @@
 #! /bin/bash
 
-python jit_cc2ftr.py -predict \
-    -predict_data "../data+model/data/jit/openstack_test.pkl" \
-    -dictionary_data "../data+model/data/jit/openstack_dict.pkl" \
-    -load_model "../data+model/model/jit/openstack_cc2ftr.pt" \
-    -name "jit_train_jit_openstack"
+python jit_DExtended.py -train \
+    -train_data "../data+model/data/jit/openstack_train.pkl" \
+    -train_data_cc2ftr "../data+model/data/jit/openstack_train_cc2ftr.pkl" \
+    -dictionary_data "../data+model/data/jit/openstack_dict.pkl"

@@ -1,7 +1,6 @@
 #! /bin/bash
 
-python jit_cc2ftr.py -predict \
-    -predict_data "../data+model/data/jit/qt_test.pkl" \
-    -dictionary_data "../data+model/data/jit/qt_dict.pkl" \
-    -load_model "../data+model/model/jit/qt_cc2ftr.pt" \
-    -name "jit_train_jit_qt"
+python jit_DExtended.py -train \
+    -train_data "../data+model/data/jit/qt_train.pkl" \
+    -train_data_cc2ftr "../data+model/data/jit/qt_train_cc2ftr.pkl" \
+    -dictionary_data "../data+model/data/jit/qt_dict.pkl"
