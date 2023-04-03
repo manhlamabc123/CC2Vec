@@ -1,0 +1,18 @@
+bfp:
+    - train:
+    - train_bfx:
+    - extract:
+    - evaluate_bfx:
+jit:
+    - train_qt:
+    - train_openstack:
+    - train_jit_qt:
+    - train_jit_openstack:
+    - extract_qt:
+    - extract_openstack:
+    - evaluate_jit_qt:
+    - evaluate_jit_openstack:
+lmg:
+    - train:
+    - extract:
+    - evaluate:

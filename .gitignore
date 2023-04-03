@@ -1,3 +1,6 @@
 data+model
 snapshot/
 __pycache__
+lmg/lmg_padding.pyc
+lmg/lmg_cc2ftr_extract
+jit/jit_extract_qt
